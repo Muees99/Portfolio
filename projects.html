@@ -1,0 +1,156 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="./projects.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"   type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<!-- =============================================================== -->
+ <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" 
+                    data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+             
+            <span class="navbar-left myLogo"> Muees Alabi &nbsp;
+               <i class="fa fa-laptop" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+          <div id="navbar" class="navbar-collapse collapse">                          
+              
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#portfolio">Projects</a></li>
+                <li class="active"><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>     
+<!-- =============================================================== start content -->     
+    <div class="row" id="content">
+        <div class="col-sm-12" id="">
+<!-- =============================================================== about -->
+                 
+<!-- =============================================================== portfolio -->
+            <div class="row"  id="portfolio">
+
+                <div class="col-sm-12">
+                    <h2 style="text-align:left;">Projects <i class="fa fa-laptop" aria-hidden="true"></i></h2>
+                    <hr>
+                </div>
+                <div class="row">
+
+                  <div class="col-xs-6" style="padding-left:40px;">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Project 1(Weather App)</div>
+                      <div class="panel-body">
+                        <img src="./Images/Weather App 3.png" class="thumbnail img-responsive center-block">
+                      </div>
+                      <div class="panel-footer">Details</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-6" style="padding-right:40px;">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Project 2 ( Movie Box)</div>
+                      <div class="panel-body">
+                        <img src="./Images/Movie Discovery - Google Chrome 9_15_2023 10_10_49 PM.png" class="thumbnail img-responsive center-block">
+                      </div>
+                      <div class="panel-footer">Details</div>
+                    </div>
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-xs-6" style="padding-left:40px;">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Project 3 (Todo List App)</div>
+                      <div class="panel-body">
+                        <img src="./Images/Project To-do 2.png" class="thumbnail img-responsive center-block">
+                      </div>
+                      <div class="panel-footer">Details</div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-6" style="padding-right:40px;">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Project 4(Image Gallery)</div>
+                      <div class="panel-body">
+                        <img src="./Images/99 Image-Gallery - Authentication - Firebase console.png" class="thumbnail img-responsive center-block">
+                      </div>
+                      <div class="panel-footer">Details</div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+            </div>
+<!-- =============================================================== contact -->                
+            <div class="row" id="contact">
+              <div class="col-sm-12">
+                <h3 style="text-align:center;">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i></h3>
+
+                <div class="col-sm-6" class="center-block" id="detail1">
+                    <ul>
+                        <li>
+                            <span class="highlight1">
+                                github: 
+                            </span>
+                            muees99
+                        </li>                            
+                        <li>
+                            <span class="highlight1">
+                                mobile: 
+                            </span>(+234) 8101097866
+                        </li>
+                        <li>
+                            <span class="highlight1">
+                                twitter: 
+                            </span>
+                            @Muees__99
+                        </li>
+                        <li>
+                            <span class="highlight1">
+                                email: 
+                            </span>
+                            mueesalabi294@gmail.com
+                        </li>                            
+                    </ul>
+                </div>
+
+                <div class="col-sm-6" class="center-block"  id="detail2">
+                  Contact me to discuss opportunities for web development work.
+                </div>                             
+              </div>
+            </div>               
+
+           
+</div> <!-- /container -->
+<!-- =============================================================== -->    
+</body>
+
+<script>
+$('.nav li a').on('click', function() {
+    //alert('clicked');
+    $(this).parent().parent().find('.active').removeClass('active');
+    $(this).parent().addClass('active');
+});
+</script>
+
+</html>
